@@ -1,4 +1,5 @@
-designProjects
+Design Projects
 ==============
 
-Front end projects in various languages 
+* A Windows 8 style landing page for the Web
+* More coming soon!
