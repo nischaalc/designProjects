@@ -1,0 +1,37 @@
+body {
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+#bg-img {
+	background: url(http://i.imgur.com/Eourq.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+#detection {
+	opacity: 0;
+}
+
+#dateTime {
+	bottom: 50;
+	left: 50;
+	position: fixed;
+	color: #FFF;
+	padding: -1em;
+	margin: 0;
+}
+
+#date {
+	font-size: 2em;
+}
+
+#time {
+	font-size: 5em;
+}
