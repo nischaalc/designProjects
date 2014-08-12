@@ -1,8 +1,5 @@
-var dData = [];
-
 $(document).ready(function() {
-	var complete = false,
-		dName;
+	var dName, dData = [];
 	
 	$.get('https://api.github.com/repos/nischaalc/smallProjects/contents/', function(contents) {
 		dData = contents;
@@ -12,7 +9,7 @@ $(document).ready(function() {
 				
 				if (dataInf.type === 'dir') {
 					dName = (dataInf.name).replace('-', ' ');
-					$('#list').append('<span class = "item"><a href = "http://nischaalc.github.io/designProjects/'+dName+'/index.html">'+dName+'</a><a href = "'+dataInf.html_url+'" class = "homefolder">[GitHub]</a></span>');
+					$('#list').append('<span class = "item"><a href = "http://nischaalc.github.io/designProjects/'+dName+'/index.html">'+dName+'</a><a href = "'+dataInf.html_url+'">[GitHub]</a></span>');
 				}
 			});
 		}
