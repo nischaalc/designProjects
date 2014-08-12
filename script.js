@@ -4,7 +4,7 @@ $(document).ready(function() {
 	var complete = false,
 		dName;
 	
-	$.get('https://api.github.com/repos/nischaalc/designProjects/contents/', function(contents) {
+	$.get('https://api.github.com/repos/nischaalc/smallProjects/contents/', function(contents) {
 		dData = contents;
 		
 		if (dData.length !== 0) {
