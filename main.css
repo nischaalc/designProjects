@@ -1,0 +1,92 @@
+body {
+	font-size: 16px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+#title {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 4em;
+	margin-bottom: 0.3em;
+}
+
+#sub {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+	margin-bottom: 2em;
+}
+
+.homefolder {
+	margin-left: 0.3em;
+}
+
+#list {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+#footer{
+	display: block;
+	text-align: center;
+	font-size: 1em;
+	bottom:0;
+	width: 100%;
+	height: 40px;
+	color: rgb(154, 154, 154);
+	position: fixed;
+}
+
+.item {
+	margin: 2em;
+}
+
+a {
+	text-decoration: none;
+	position: relative;
+}
+
+a {
+	padding: 10px;
+	color: #327CC7;
+	text-shadow: none;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+a::before,
+a::after {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #327CC7;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+a::after {
+	bottom: 0;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+a:hover,
+a:focus {
+	color: #327CC7;
+}
+
+a:hover::after,
+a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
