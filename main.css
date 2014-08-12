@@ -43,10 +43,7 @@ body {
 a {
 	text-decoration: none;
 	position: relative;
-}
-
-a {
-	padding: 10px;
+	padding: 3px;
 	color: #327CC7;
 	text-shadow: none;
 	-webkit-transition: color 0.3s;
