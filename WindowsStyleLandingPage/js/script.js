@@ -53,3 +53,8 @@ function setTimeDate() {
 	setTimeout(setTimeDate, 1000);
 }
 
+$('#again').click(function() {
+	$('#bg-img').slideDown(600);
+	$('#dateTime').fadeIn(1500);
+});
+
