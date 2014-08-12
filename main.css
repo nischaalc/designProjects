@@ -16,10 +16,6 @@ body {
 	margin-bottom: 2em;
 }
 
-.homefolder {
-	margin-left: 0.3em;
-}
-
 #list {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
@@ -73,11 +69,6 @@ a::after {
 	-webkit-transform: translateY(10px);
 	-moz-transform: translateY(10px);
 	transform: translateY(10px);
-}
-
-a:hover,
-a:focus {
-	color: #327CC7;
 }
 
 a:hover::after,
