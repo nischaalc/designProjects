@@ -1,0 +1,101 @@
+html {
+	font-family: 'Merriweather Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #FFF;
+	font-size: 20px;
+}
+
+nav {
+    margin-bottom: 2em;
+}
+
+.content {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.scroimg {
+	padding: 0.2em;
+	border: 2px solid #FFF;
+	border-radius: 50%;
+	cursor: pointer;
+	position: relative;
+	bottom: 15px;
+	margin-top: 0.3em;
+}
+
+.intro {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	background: #E74C3C;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.tag {
+	padding-top: 2em;
+	width: 100%;
+	text-align: center;
+	font-weight: 700;
+	color: #FFF;
+}
+
+.sub {
+	font-size: 0.6em;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+    text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media all and (min-width: 150px) {
+	.post .tag{
+		font-size: 2em;
+	}
+    
+}
+
+@media all and (min-width: 600px) {
+	.post .tag{
+		font-size: 3em;
+	}
+    
+}
+
+@media all and (min-width: 960px) {
+	.post .tag{
+		font-size: 4em;
+	}
+
+}
+
+@media all and (max-height: 600px) {
+	.scroimg {
+		margin-top: 1em;
+	}
+}
